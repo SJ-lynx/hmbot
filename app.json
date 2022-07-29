@@ -1,0 +1,18 @@
+{
+  "name": "AnimeHentaisBot",
+  "description": "AnimeHentaisBot",
+  "env": {
+    "TOKEN": {
+      "description": "TOKEN",
+      "value": ""
+    },
+    "CHANNEL_ID": {
+      "description": "CHANNEL_ID",
+      "value": ""
+    },
+    "CHANNEL_LINK": {
+      "description": "CHANNEL_LINK",
+      "value": ""
+    }
+  }
+}
