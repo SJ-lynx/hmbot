@@ -26,8 +26,8 @@ Menu = ReplyKeyboardMarkup(resize_keyboard=True).add(
 
 @dp.message_handler(commands=['start'])
 async def startcmd(message: Message):
-    await bot.send_message(message.chat.id, "Hi {0.first_name}".format(message.chat), reply_markup=Menu)
     x = message.from_user.first_name
+    await bot.send_message(message.chat.id, f"Hi {x}", reply_markup=Menu)
     await bot.send_message(-1001745065823, f"[{x}](tg://user?id={message.from_user.id})", parse_mode="markdown")
 
 
