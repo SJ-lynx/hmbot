@@ -1,5 +1,5 @@
 from hmtai import get
-import random
+import random, os
 from aiogram import Bot, Dispatcher, executor
 from aiogram.types import Message, ReplyKeyboardMarkup, KeyboardButton
 
